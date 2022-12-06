@@ -1,0 +1,12 @@
+[package]
+name = "openai-client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "0.2", features = ["full"] }
+reqwest = { version = "0.10", features = ["json"] }
+serde_json = "1.0"
+structopt = "^0.3.12"
